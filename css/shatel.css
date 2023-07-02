@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+body {
+    font-family:IranianSans;
+}
+
+.font13{
+    font-size: 13px;
+}
+.font10{
+    font-size: 10px;
+    width: 82%;
+}
+.font8{
+    font-size: 10px;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.px-n1 {
+    padding-right: 11.5rem !important;
+    padding-left: 10rem !important;
+
+  }
+.px-n2 {
+    padding-right: 11.5rem !important;
+    padding-left: 11.5rem !important;
+  }
