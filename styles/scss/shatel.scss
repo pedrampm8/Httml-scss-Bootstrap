@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+body {
+  // font-family:IranianSans;
+  background-color: #fafcfd;
+}
+.font20 {
+  font-size: 24px;
+}
+.font13 {
+  font-size: 13px;
+}
+.font10 {
+  font-size: 10px;
+  width: 82%;
+}
+.font8 {
+  font-size: 10px;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.px-n1 {
+  padding-right: 11.5rem !important;
+  padding-left: 10rem !important;
+}
+.px-n2 {
+  padding-right: 11.5rem !important;
+  padding-left: 11.5rem !important;
+}
+.mx-n3 {
+  margin-right: 11.5rem !important;
+  margin-left: 11.5rem !important;
+}
+
+@media only screen and (max-width: 1305px) {
+  .px-n2 {
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+  }
+  .px-n1 {
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+  }
+}
+@media only screen and (max-width: 1090px) {
+  .px-n2 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .px-n1 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+.height70 {
+  width: 70%;
+}
+.bg-p1 {
+  background-color: #f6f7fa;
+}
+.bg-p2 {
+  background-color: #f2f2f2;
+}
+.w-100 {
+  width: 100%;
+}
+// .nav1{
+
+// }
+// .nav2{
+//     z-index: 2;
+//     position: fixed;
+// }
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #cccdd1;
+  --bs-btn-border-color: #cccdd1;
+}
+.width20 {
+  width: 20%;
+}
+.card-img-top {
+  width: 35%;
+  max-width: 100%;
+  vertical-align: top;
+  margin: auto;
+}
+// .size {
+//   height: 315px;
+// }
+.card {
+  --bs-card-border-width: 0;
+  text-align: center;
+}
+.card-title {
+  font-weight: bolder;
+}
+.lineCard {
+  color: #f9cf55;
+  font-weight: 900;
+  font-size: 20px;
+}
+.card-text {
+  font-size: 12px;
+}
+// .hight300 {
+//   height: 270px;
+// }
+a {
+  text-decoration: none;
+}
+.hover {
+  transition: 1s;
+
+  &:hover {
+    position: relative;
+    top: -1px;
+    box-shadow: 1px 1px 15px #a19f9f;
+    transform: scale(105%);
+  }
+}
+.hight315 {
+  height: 315px;
+}
+.inf-b1 {
+  background-image: url(../../img/back1.png);
+}
+.inf-b2 {
+  background-image: url(../../img/back2.png);
+}
+.card-slider {
+  background-color: #fafcfd;
+  border-radius: 20px;
+}
+.carousel-indicators2 {
+  position: relative;
+  top: 300px;
+}
+footer {
+  background-color: #242c39;
+}
+.footer2 {
+  color: #f6f7fa;
+  .footer22 {
+    direction: ltr;
+  }
+}
+.footer11 {
+  color: #f2f2f2;
+}
+.footer12 {
+  direction: ltr;
+  a {
+    font-size: 50px;
+    padding: 10px;
+  }
+}
+hr {
+  color: #a19f9f;
+}
+.mailpoet {
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+}
+.mailpoet-bu {
+  position: relative;
+  top: -44px;
+  right: -5px;
+  border-radius: 50px;
+}
+.immmg{
+  img{
+    width: 100%;
+  }
+}
